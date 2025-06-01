@@ -13,16 +13,21 @@ Passionate about learning and tackling complex challenges. I specialize in leadi
 ## 🛠️ Key Technical Skills
 
 **Languages:** Java, Groovy, Golang, Flutter
+
 **DevOps:** Docker, Kubernetes, GitHub Actions, Terraform, ArgoCD
+
 **Cloud:** AWS, GCP
+
 **Databases:** PostgreSQL, Cassandra, Redis
-**Other:** Apache Kafka, ELK, Prometheus, Gradle
+
+**Other:** Apache Kafka, ELK, Prometheus, Gradle, Cilium
 
 ---
 
 ## 💼 Experience
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIDF5OPQsL1S2q-6_dDCRtx9kVfTxa6uCZg&s" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer**
+
 *November 2021 – Present*
 
 * Led the development of Internal Developer Platforms for different clients.
@@ -33,7 +38,9 @@ Passionate about learning and tackling complex challenges. I specialize in leadi
 ---
 
 <img src="https://images.icon-icons.com/2699/PNG/512/toptal_logo_icon_168482.png" height="30" style="vertical-align: middle;"> • Toptal • **Lead Software Engineer**
+
 *February 2018 – January 2022*
+
 Freelance software engineer through Toptal. Worked across multiple client projects:
 
 **Client: Messaging and voicemail management mobile app**
@@ -57,6 +64,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 ---
 
 <img src="https://cledara-public.s3.eu-west-2.amazonaws.com/reachdesk.png" height="30" style="vertical-align: middle;"> • Reachdesk • **Senior Software Engineer**
+
 *January 2021 – October 2021*
 
 * Fourth engineer at the company; helped scale to 40+ people.
@@ -66,6 +74,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 ---
 
 <img src="https://www.journaltranscript.com/wp-content/uploads/2016/08/Sky-Plc.jpg" height="30" style="vertical-align: middle;"> • Sky PLC • **Senior Software Engineer**
+
 *January 2016 – December 2020*
 
 * Built scalable and highly available REST APIs.
@@ -79,6 +88,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 ---
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuZfbdBrojqak3ZerHBbYUYcGq3TNsvAUXbg&s" height="30" style="vertical-align: middle;"> • Airnav Systems LLC • **Senior Software Engineer**
+
 *February 2012 – December 2015*
 
 * Developed and maintained all RadarBox24 applications using multiple APIs.
@@ -87,6 +97,14 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 * Implemented a high-throughput Java data processing server.
 * Developed Android apps for flight tracking.
 * Created a Maven-based data processor feeding data to Redis for downstream apps.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTE_gmcj4Go0QtFUw-CZTX5R5cGgdZztKgsA&s" height="30" style="vertical-align: middle;"> • Quidgest • **Software Developer**
+
+*May 2011 – August 2011*
+
+* Implemented PDF report generation.
+* Contributed to the development of the code generator tool.
+* Refactored and maintained old applications.
 
 ---
 
@@ -111,6 +129,8 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 
 ## 🎓 Education
 
-**Master’s in Computer Science** — *2011–2016*
+* **Universidade Nova de Lisboa - Master’s in Computer Science** — *2011–2016*
+* **Wrocław University of Science and Technology - Bachelor in Computer Science (ERASMUS program)** - *2013-2014*
+
 
 ---
