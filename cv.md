@@ -12,23 +12,39 @@ Passionate about learning and tackling complex challenges. I specialize in leadi
 
 ## 🛠️ Key Technical Skills
 
-**Languages:** Java, Groovy, Golang, Flutter
+**Languages:** Java, Groovy, Golang, Flutter, Rust, Python
 
-**DevOps:** Docker, Kubernetes, GitHub Actions, Terraform, ArgoCD
+**DevOps:** Docker, Kubernetes, k3s, Nomad, GitHub Actions, Jenkins, Terraform, ArgoCD
 
 **Cloud:** AWS, GCP
 
+**Networking & Self-Hosting:** Tailscale, Cloudflare Tunnels, NFS
+
 **Databases:** PostgreSQL, Cassandra, Redis
 
-**Other:** Apache Kafka, ELK, Prometheus, Gradle, Cilium
+**Observability:** ELK, Prometheus, Grafana, Datadog
+
+**Other:** Apache Kafka, Gradle, Cilium
 
 ---
 
 ## 💼 Experience
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIDF5OPQsL1S2q-6_dDCRtx9kVfTxa6uCZg&s" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer**
+<img src="images/snyk.png" height="30" style="vertical-align: middle;"> • Snyk • **Staff Software Engineer**
 
-*November 2021 – Present*
+*November 2025 – Present*
+
+* Leading the design and development of an AI-powered penetration testing service for Snyk's platform.
+* Architected a two-component system (API server + async worker) for orchestrating autonomous security assessments of web applications.
+* Built a hardened sandbox execution environment using bubblewrap, seccomp, and network egress policies to safely run AI agents.
+* Implemented async job processing via Redis Streams with idempotent ingestion and concurrency-safe writes.
+* Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes, Envoy
+
+---
+
+<img src="images/cecg.jpg" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer**
+
+*November 2021 – October 2025*
 
 * Led the development of Internal Developer Platforms for different clients.
 * Strong focus on security; collaborated with the security team to design platform features.
@@ -37,7 +53,7 @@ Passionate about learning and tackling complex challenges. I specialize in leadi
 
 ---
 
-<img src="https://images.icon-icons.com/2699/PNG/512/toptal_logo_icon_168482.png" height="30" style="vertical-align: middle;"> • Toptal • **Lead Software Engineer**
+<img src="images/toptal.svg" height="30" style="vertical-align: middle;"> • Toptal • **Lead Software Engineer**
 
 *February 2018 – January 2022*
 
@@ -63,7 +79,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 
 ---
 
-<img src="https://cledara-public.s3.eu-west-2.amazonaws.com/reachdesk.png" height="30" style="vertical-align: middle;"> • Reachdesk • **Senior Software Engineer**
+<img src="images/reachdesk.png" height="30" style="vertical-align: middle;"> • Reachdesk • **Senior Software Engineer**
 
 *January 2021 – October 2021*
 
@@ -73,7 +89,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 
 ---
 
-<img src="https://www.journaltranscript.com/wp-content/uploads/2016/08/Sky-Plc.jpg" height="30" style="vertical-align: middle;"> • Sky PLC • **Senior Software Engineer**
+<img src="images/sky.jpg" height="30" style="vertical-align: middle;"> • Sky PLC • **Senior Software Engineer**
 
 *January 2016 – December 2020*
 
@@ -87,7 +103,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 
 ---
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuZfbdBrojqak3ZerHBbYUYcGq3TNsvAUXbg&s" height="30" style="vertical-align: middle;"> • Airnav Systems LLC • **Senior Software Engineer**
+<img src="images/airnav.jpg" height="30" style="vertical-align: middle;"> • Airnav Systems LLC • **Senior Software Engineer**
 
 *February 2012 – December 2015*
 
@@ -98,7 +114,9 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 * Developed Android apps for flight tracking.
 * Created a Maven-based data processor feeding data to Redis for downstream apps.
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTE_gmcj4Go0QtFUw-CZTX5R5cGgdZztKgsA&s" height="30" style="vertical-align: middle;"> • Quidgest • **Software Developer**
+---
+
+<img src="images/quidgest.jpg" height="30" style="vertical-align: middle;"> • Quidgest • **Software Developer**
 
 *May 2011 – August 2011*
 
@@ -120,7 +138,17 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 
 ## 📂 Projects
 
-<img src="https://learn.kalschatzi.com/images/intro/logo.png" height="30" style="vertical-align: middle;"> • **Kalschatzi's Learning Platform** – [GitHub](https://github.com/Kalschatzi) | [Site](https://learn.kalschatzi.com)
+**Market Analyser** – Self-hosted quantitative trading research platform
+
+* End-to-end Go system for stock market research, backtesting, and paper trading via Interactive Brokers.
+* Self-hosted on personal infrastructure: PostgreSQL, Grafana dashboards, IB Gateway containers, Jenkins CI/CD.
+* Deployed with Docker Compose on NFS-backed storage; automated pipeline (lint, test, deploy, regression replay).
+* Walk-forward validation, Monte Carlo confidence intervals, and an 8-gate promotion framework before any strategy goes live.
+* Tech stack: Go, PostgreSQL, Docker, Jenkins, Grafana, NFS
+
+---
+
+<img src="images/kalschatzi.jpg" height="30" style="vertical-align: middle;"> • **Kalschatzi's Learning Platform** – [GitHub](https://github.com/Kalschatzi) | [Site](https://learn.kalschatzi.com)
 
 * Platform and content for a mentorship project supporting junior engineers.
 * Currently mentoring 4 students.
@@ -129,7 +157,7 @@ Freelance software engineer through Toptal. Worked across multiple client projec
 
 ## 🎓 Education
 
-* **Universidade Nova de Lisboa - Master’s in Computer Science** — *2011–2016*
+* **Universidade Nova de Lisboa - Master's in Computer Science** — *2011–2016*
 * **Wrocław University of Science and Technology - Bachelor in Computer Science (ERASMUS program)** - *2013-2014*
 
 
