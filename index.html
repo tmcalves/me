@@ -13,18 +13,37 @@ enterprises like Sky plc, always focused on delivering robust and secure
 solutions. I’m also an active mentor and teacher.</p>
 <hr />
 <h2 id="key-technical-skills">🛠️ Key Technical Skills</h2>
-<p><strong>Languages:</strong> Java, Groovy, Golang, Flutter</p>
-<p><strong>DevOps:</strong> Docker, Kubernetes, GitHub Actions,
-Terraform, ArgoCD</p>
+<p><strong>Languages:</strong> Java, Groovy, Golang, Flutter, Rust,
+Python</p>
+<p><strong>DevOps:</strong> Docker, Kubernetes, k3s, Nomad, GitHub
+Actions, Jenkins, Terraform, ArgoCD</p>
 <p><strong>Cloud:</strong> AWS, GCP</p>
+<p><strong>Networking &amp; Self-Hosting:</strong> Tailscale, Cloudflare
+Tunnels, NFS</p>
 <p><strong>Databases:</strong> PostgreSQL, Cassandra, Redis</p>
-<p><strong>Other:</strong> Apache Kafka, ELK, Prometheus, Gradle,
-Cilium</p>
+<p><strong>Observability:</strong> ELK, Prometheus, Grafana, Datadog</p>
+<p><strong>Other:</strong> Apache Kafka, Gradle, Cilium</p>
 <hr />
 <h2 id="experience">💼 Experience</h2>
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIDF5OPQsL1S2q-6_dDCRtx9kVfTxa6uCZg&s" height="30" style="vertical-align: middle;">
+<p><img src="images/snyk.png" height="30" style="vertical-align: middle;">
+• Snyk • <strong>Staff Software Engineer</strong></p>
+<p><em>November 2025 – Present</em></p>
+<ul>
+<li>Leading the design and development of an AI-powered penetration
+testing service for Snyk’s platform.</li>
+<li>Architected a two-component system (API server + async worker) for
+orchestrating autonomous security assessments of web applications.</li>
+<li>Built a hardened sandbox execution environment using bubblewrap,
+seccomp, and network egress policies to safely run AI agents.</li>
+<li>Implemented async job processing via Redis Streams with idempotent
+ingestion and concurrency-safe writes.</li>
+<li>Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes,
+Envoy</li>
+</ul>
+<hr />
+<p><img src="images/cecg.jpg" height="30" style="vertical-align: middle;">
 • CECG • <strong>Lead Software Engineer</strong></p>
-<p><em>November 2021 – Present</em></p>
+<p><em>November 2021 – October 2025</em></p>
 <ul>
 <li>Led the development of Internal Developer Platforms for different
 clients.</li>
@@ -36,7 +55,7 @@ deployable in days, saving years of manual effort.</li>
 company while improving department workflows.</li>
 </ul>
 <hr />
-<p><img src="https://images.icon-icons.com/2699/PNG/512/toptal_logo_icon_168482.png" height="30" style="vertical-align: middle;">
+<p><img src="images/toptal.svg" height="30" style="vertical-align: middle;">
 • Toptal • <strong>Lead Software Engineer</strong></p>
 <p><em>February 2018 – January 2022</em></p>
 <p>Freelance software engineer through Toptal. Worked across multiple
@@ -63,7 +82,7 @@ Charts</li>
 TypeORM</li>
 </ul>
 <hr />
-<p><img src="https://cledara-public.s3.eu-west-2.amazonaws.com/reachdesk.png" height="30" style="vertical-align: middle;">
+<p><img src="images/reachdesk.png" height="30" style="vertical-align: middle;">
 • Reachdesk • <strong>Senior Software Engineer</strong></p>
 <p><em>January 2021 – October 2021</em></p>
 <ul>
@@ -73,7 +92,7 @@ TypeORM</li>
 load).</li>
 </ul>
 <hr />
-<p><img src="https://www.journaltranscript.com/wp-content/uploads/2016/08/Sky-Plc.jpg" height="30" style="vertical-align: middle;">
+<p><img src="images/sky.jpg" height="30" style="vertical-align: middle;">
 • Sky PLC • <strong>Senior Software Engineer</strong></p>
 <p><em>January 2016 – December 2020</em></p>
 <ul>
@@ -87,7 +106,7 @@ optimizations.</li>
 <li>Led and improved an internal Kubernetes-based PaaS.</li>
 </ul>
 <hr />
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuZfbdBrojqak3ZerHBbYUYcGq3TNsvAUXbg&s" height="30" style="vertical-align: middle;">
+<p><img src="images/airnav.jpg" height="30" style="vertical-align: middle;">
 • Airnav Systems LLC • <strong>Senior Software Engineer</strong></p>
 <p><em>February 2012 – December 2015</em></p>
 <ul>
@@ -100,7 +119,8 @@ APIs.</li>
 <li>Created a Maven-based data processor feeding data to Redis for
 downstream apps.</li>
 </ul>
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTE_gmcj4Go0QtFUw-CZTX5R5cGgdZztKgsA&s" height="30" style="vertical-align: middle;">
+<hr />
+<p><img src="images/quidgest.jpg" height="30" style="vertical-align: middle;">
 • Quidgest • <strong>Software Developer</strong></p>
 <p><em>May 2011 – August 2011</em></p>
 <ul>
@@ -127,7 +147,21 @@ OOP</a></li>
 </ul>
 <hr />
 <h2 id="projects">📂 Projects</h2>
-<p><img src="https://learn.kalschatzi.com/images/intro/logo.png" height="30" style="vertical-align: middle;">
+<p><strong>Market Analyser</strong> – Self-hosted quantitative trading
+research platform</p>
+<ul>
+<li>End-to-end Go system for stock market research, backtesting, and
+paper trading via Interactive Brokers.</li>
+<li>Self-hosted on personal infrastructure: PostgreSQL, Grafana
+dashboards, IB Gateway containers, Jenkins CI/CD.</li>
+<li>Deployed with Docker Compose on NFS-backed storage; automated
+pipeline (lint, test, deploy, regression replay).</li>
+<li>Walk-forward validation, Monte Carlo confidence intervals, and an
+8-gate promotion framework before any strategy goes live.</li>
+<li>Tech stack: Go, PostgreSQL, Docker, Jenkins, Grafana, NFS</li>
+</ul>
+<hr />
+<p><img src="images/kalschatzi.jpg" height="30" style="vertical-align: middle;">
 • <strong>Kalschatzi’s Learning Platform</strong> – <a
 href="https://github.com/Kalschatzi">GitHub</a> | <a
 href="https://learn.kalschatzi.com">Site</a></p>
