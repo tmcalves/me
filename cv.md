@@ -6,7 +6,7 @@
 
 ## 🧑‍💻 Summary
 
-Passionate about learning and tackling complex challenges. I specialize in leading the development and design of Developer Platforms and end-to-end applications. I've worked across both startups and large enterprises like Sky plc, always focused on delivering robust and secure solutions. I'm also an active mentor and teacher.
+Staff Software Engineer specializing in AI-powered security tooling and Internal Developer Platforms. I lead the design of secure, large-scale systems — from autonomous AI security agents and hardened sandboxes to end-to-end developer platforms — across startups and enterprises like Snyk and Sky plc. Active mentor and teacher.
 
 ---
 
@@ -24,7 +24,9 @@ Passionate about learning and tackling complex challenges. I specialize in leadi
 
 **Observability:** ELK, Prometheus, Grafana, Datadog
 
-**Other:** Apache Kafka, Gradle, Cilium
+**AI & Security:** LLM agents & orchestration, autonomous agent sandboxing (bubblewrap, seccomp, egress policies), AppSec, penetration testing
+
+**Other:** Apache Kafka, Gradle, Cilium, Envoy
 
 ---
 
@@ -55,9 +57,9 @@ Passionate about learning and tackling complex challenges. I specialize in leadi
 
 <img src="images/toptal.svg" height="30" style="vertical-align: middle;"> • Toptal • **Lead Software Engineer**
 
-*February 2018 – January 2022*
+*February 2018 – January 2022 — freelance, alongside full-time roles*
 
-Freelance software engineer through Toptal. Worked across multiple client projects:
+Freelance software engineer through Toptal, taken on in parallel with my full-time positions. Worked across multiple client projects:
 
 **Client: Messaging and voicemail management mobile app**
 
