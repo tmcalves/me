@@ -6,7 +6,7 @@
 
 ## 🧑‍💻 Summary
 
-Staff Software Engineer with 15 years in software, specialising in AI agent platforms, cloud-native platform architecture and security. At Snyk I was one of the first two engineers in the AI Pentest department and lead the design of its AI-powered penetration testing service: autonomous offensive-security agents with guardrails, evals and hardened sandboxes. Before that, at CECG, I was technical lead, product owner and people manager for a ~15-engineer team building a major UK retail bank's Internal Developer Platform. It grew from one tenant to ~50 tenant teams (250+ engineers), with security standards defined alongside the bank's security department. Active mentor and teacher.
+Staff Software Engineer with 15 years in software, specialising in AI agent platforms, cloud-native platform architecture and security. At Snyk I was one of the first two engineers in the AI Pentest department and am the principal architect of its AI-powered penetration testing service: autonomous offensive-security agents with guardrails, evals, prompt-injection handling and gVisor sandboxes. Before that, at CECG, I was principal architect, product owner and people manager for a ~15-engineer team building Tesco Bank's Internal Developer Platform. It grew from one tenant to ~50 tenant teams (250+ engineers), with security standards defined alongside the bank's security department. Active mentor and teacher.
 
 ---
 
@@ -14,7 +14,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 
 **Architecture & Leadership:** Distributed systems, multi-tenant Internal Developer Platforms, event-driven and asynchronous architectures, build-vs-buy decisions, product ownership and roadmaps, managing through team leads, hiring, mentoring
 
-**AI & Security:** LLM agents and orchestration, MCP and tool integration, guardrails and evals, agent sandboxing (bubblewrap, seccomp, gVisor, Firecracker), AppSec, penetration testing tooling, security standards and governance
+**AI & Security:** LLM agents and orchestration, MCP and tool integration, guardrails and evals, agent sandboxing (gVisor in production, bubblewrap, seccomp; Firecracker evaluated), prompt-injection handling, threat modelling, AppSec, penetration testing tooling, security standards and governance
 
 **Languages:** Go, Rust, Python, Java, Groovy
 
@@ -33,19 +33,20 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 *November 2025 – Present*
 
 * One of the first two engineers in Snyk's AI Pentest department, helping scale it up.
-* Leading the design and development of the AI-powered penetration testing service: an API server and async worker orchestrating autonomous security assessments of web applications.
+* Drove adoption of Claude Code and Cursor: piloted it with a team of 5 in Snyk's Evo department, extended it to the AI Pentest department, and it was later adopted across Evo (~200 people). Backed it with automated validation of code quality, documentation and conformance to ADRs and task requirements.
+* Principal architect for the AI-powered penetration testing service: an API server and async worker orchestrating autonomous security assessments of web applications.
 * Building autonomous offensive-security agents on production LLM APIs, with guardrails, evals and MCP-based tool integrations.
-* Built a hardened sandbox for running AI agents safely, using bubblewrap, seccomp and network egress policies.
-* Implemented async job processing via Redis Streams with idempotent ingestion and concurrency-safe writes.
+* Led threat modelling for the service and designed its agent controls: prompt-injection handling for untrusted content from target applications, tool-misuse limits, and an audit trail of agent decisions and tool calls.
+* Built a hardened sandbox for running AI agents safely, using gVisor, bubblewrap, seccomp and network egress policies.
 * Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes, Envoy
 
 ---
 
-<img src="images/cecg.jpg" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer** — Technical Lead, Product Owner & People Manager
+<img src="images/cecg.jpg" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer** — Principal Architect, Product Owner & People Manager
 
 *November 2021 – October 2025*
 
-* Technical lead, product owner and people manager for ~15 engineers, half of them through team leads, building a Kubernetes-based Internal Developer Platform on AWS for a major UK retail bank.
+* Principal architect, product owner and people manager for ~15 engineers, half of them through team leads, building a Kubernetes-based Internal Developer Platform on AWS for Tesco Bank.
 * Designed around a single tenant's needs, the platform's success and purpose-built tooling led ~50 tenant teams (250+ engineers) across the bank to onboard.
 * Partnered with the bank's security department to define new security standards for cloud-native applications and built them into the platform: default-deny networking, admission policies rejecting non-compliant workloads, image scanning at build, deploy and run time, and log forwarding to the bank's SIEM.
 * Owned the platform roadmap and build-vs-buy decisions, integrating the bank's existing identity, secrets, vulnerability management and SIEM tooling rather than rebuilding it.
@@ -63,11 +64,13 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 
 ---
 
+::: {style="break-inside: avoid"}
 <img src="images/reachdesk.png" height="30" style="vertical-align: middle;"> • Reachdesk • **Senior Software Engineer**
 
 *January 2021 – October 2021*
 
 * Fourth engineer at the company; helped scale to 40+ people, focusing on platform reliability and resilience with functional, integration and load test coverage.
+:::
 
 ---
 
@@ -75,25 +78,12 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 
 *January 2016 – December 2020*
 
-* Led and improved an internal Kubernetes-based PaaS.
-* Built scalable, highly available REST APIs and maintained CI/CD pipelines on Kubernetes for microservices.
+* Led and improved an internal Kubernetes-based PaaS, and built highly available REST APIs and CI/CD pipelines on Kubernetes for microservices.
 * Migrated legacy databases, delivered zero-downtime database and API performance optimisations, and built observability dashboards in Kibana and Grafana.
 
 ---
 
-<img src="images/airnav.jpg" height="30" style="vertical-align: middle;"> • Airnav Systems LLC • **Senior Software Engineer**
-
-*February 2012 – December 2015*
-
-* Developed and maintained all RadarBox24 applications (web and Android flight tracking), a high-throughput Java data processing server and Redis-backed RESTful services.
-
----
-
-<img src="images/quidgest.jpg" height="30" style="vertical-align: middle;"> • Quidgest • **Software Developer**
-
-*May 2011 – August 2011*
-
-* Implemented PDF report generation, contributed to the code generator tool, and maintained legacy applications.
+**Earlier:** Airnav Systems, Senior Software Engineer (2012–2015): RadarBox24 flight-tracking apps (web and Android), a high-throughput Java data processing server and Redis-backed REST services. Quidgest, Software Developer (2011): PDF reporting and code-generator tooling.
 
 ---
 
