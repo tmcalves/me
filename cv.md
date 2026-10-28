@@ -6,7 +6,7 @@
 
 ## 🧑‍💻 Summary
 
-Staff Software Engineer with 15 years in software, specialising in AI agent platforms, cloud-native platform architecture and security. At Snyk I was one of the first two engineers in the AI Pentest department and am the principal architect of its AI-powered penetration testing service: autonomous offensive-security agents with guardrails, evals, prompt-injection handling and gVisor sandboxes. Before that, at CECG, I was principal architect, product owner and people manager for a ~15-engineer team building Tesco Bank's Internal Developer Platform. It grew from one tenant to ~50 tenant teams (250+ engineers), with security standards defined alongside the bank's security department. Active mentor and teacher.
+Staff Software Engineer with 15 years in software, specialising in AI agent platforms, cloud-native platform architecture and security. At Snyk I was one of the first two engineers in the AI Pentest department and am the principal architect of its AI-powered penetration testing service: autonomous offensive-security agents with guardrails, evals, prompt-injection handling and gVisor sandboxes. Before that, at CECG, I was principal architect, product owner and people manager for a ~15-engineer team building Tesco Bank's Internal Developer Platform. It grew from one tenant to ~50 tenant teams (250+ engineers), with security standards defined alongside the bank's security department. At Sky I helped design and scale a multi-region, active-active platform serving 60M concurrent users. Active mentor and teacher.
 
 ---
 
@@ -35,6 +35,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 * One of the first two engineers in Snyk's AI Pentest department, helping scale it up.
 * Drove adoption of Claude Code and Cursor: piloted it with a team of 5 in Snyk's Evo department, extended it to the AI Pentest department, and it was later adopted across Evo (~200 people). Backed it with automated validation of code quality, documentation and conformance to ADRs and task requirements.
 * Principal architect for the AI-powered penetration testing service: an API server and async worker orchestrating autonomous security assessments of web applications.
+* Took the service from design to general availability with paying customers in ~6 months end to end, against an initial estimate of over a year, using agentic development.
 * Building autonomous offensive-security agents on production LLM APIs, with guardrails, evals and MCP-based tool integrations.
 * Led threat modelling for the service and designed its agent controls: prompt-injection handling for untrusted content from target applications, tool-misuse limits, and an audit trail of agent decisions and tool calls.
 * Built a hardened sandbox for running AI agents safely, using gVisor, bubblewrap, seccomp and network egress policies.
@@ -50,8 +51,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 * Designed around a single tenant's needs, the platform's success and purpose-built tooling led ~50 tenant teams (250+ engineers) across the bank to onboard.
 * Partnered with the bank's security department to define new security standards for cloud-native applications and built them into the platform: default-deny networking, admission policies rejecting non-compliant workloads, image scanning at build, deploy and run time, and log forwarding to the bank's SIEM.
 * Owned the platform roadmap and build-vs-buy decisions, integrating the bank's existing identity, secrets, vulnerability management and SIEM tooling rather than rebuilding it.
-* Built an out-of-the-box, fully containerised Developer Platform deployable in days, saving years of manual effort.
-* Redesigned and helped rebuild the CMS solution for a major media company while improving department workflows.
+* Built an out-of-the-box, containerised Developer Platform deployable in days.
 
 ---
 
@@ -78,6 +78,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 
 *January 2016 – December 2020*
 
+* Helped design and scale the platform to support 60M concurrent users, running active-active across regions on multiple clusters, each hosting hundreds of tenants and thousands of applications.
 * Led and improved an internal Kubernetes-based PaaS, and built highly available REST APIs and CI/CD pipelines on Kubernetes for microservices.
 * Migrated legacy databases, delivered zero-downtime database and API performance optimisations, and built observability dashboards in Kibana and Grafana.
 
@@ -92,14 +93,13 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 * [MVP Security for a Bank Developer Platform](https://www.cecg.io/blog/security-for-mvp/)
 * [Security for a Large International Media Provider's IDP](https://www.cecg.io/blog/case-study-security-media-providers-internal-developer-platform/)
 * [Supporting GCP's Private Service Access](https://www.cecg.io/blog/intra-account-connectivity/)
-* [Computer Network Fundamentals](https://learn.kalschatzi.com/module2/)
-* [Java and OOP](https://learn.kalschatzi.com/module1/)
+* [Computer Network Fundamentals](https://learn.kalschatzi.com/module2/) and [Java and OOP](https://learn.kalschatzi.com/module1/) (mentoring course material)
 
 ---
 
 ## 📂 Projects
 
-**Market Analyser** – Self-hosted quantitative trading research platform: an end-to-end Go system for backtesting and paper trading via Interactive Brokers, with walk-forward validation, Monte Carlo confidence intervals and an 8-gate promotion framework, running on PostgreSQL, Grafana and Jenkins CI/CD.
+**Market Analyser** – Self-hosted quantitative trading research platform in Go: backtesting, walk-forward validation and paper trading via Interactive Brokers.
 
 <img src="images/kalschatzi.jpg" height="30" style="vertical-align: middle;"> • **Kalschatzi's Learning Platform** – [GitHub](https://github.com/Kalschatzi) | [Site](https://learn.kalschatzi.com)
 
