@@ -6,27 +6,23 @@
 
 ## 🧑‍💻 Summary
 
-Staff Software Engineer specializing in AI-powered security tooling and Internal Developer Platforms. I lead the design of secure, large-scale systems — from autonomous AI security agents and hardened sandboxes to end-to-end developer platforms — across startups and enterprises like Snyk and Sky plc. Active mentor and teacher.
+Staff Software Engineer with 15 years in software, specialising in AI agent platforms, cloud-native platform architecture and security. At Snyk I was one of the first two engineers in the AI Pentest department and lead the design of its AI-powered penetration testing service: autonomous offensive-security agents with guardrails, evals and hardened sandboxes. Before that, at CECG, I was technical lead, product owner and people manager for a ~15-engineer team building a major UK retail bank's Internal Developer Platform. It grew from one tenant to ~50 tenant teams (250+ engineers), with security standards defined alongside the bank's security department. Active mentor and teacher.
 
 ---
 
-## 🛠️ Key Technical Skills
+## 🛠️ Key Skills
 
-**Languages:** Java, Groovy, Golang, Flutter, Rust, Python
+**Architecture & Leadership:** Distributed systems, multi-tenant Internal Developer Platforms, event-driven and asynchronous architectures, build-vs-buy decisions, product ownership and roadmaps, managing through team leads, hiring, mentoring
 
-**DevOps:** Docker, Kubernetes, k3s, Nomad, GitHub Actions, Jenkins, Terraform, ArgoCD
+**AI & Security:** LLM agents and orchestration, MCP and tool integration, guardrails and evals, agent sandboxing (bubblewrap, seccomp, gVisor, Firecracker), AppSec, penetration testing tooling, security standards and governance
 
-**Cloud:** AWS, GCP
+**Languages:** Go, Rust, Python, Java, Groovy
 
-**Networking & Self-Hosting:** Tailscale, Cloudflare Tunnels, NFS
+**Cloud & Platform:** AWS, GCP, Kubernetes (EKS, GKE, multi-region), Terraform, ArgoCD, Crossplane, Config Connector, Cilium, Envoy, GitHub Actions, Jenkins
 
-**Databases:** PostgreSQL, Cassandra, Redis
+**Data:** PostgreSQL, Redis, Cassandra, Apache Kafka
 
-**Observability:** ELK, Prometheus, Grafana, Datadog
-
-**AI & Security:** LLM agents & orchestration, autonomous agent sandboxing (bubblewrap, seccomp, egress policies), AppSec, penetration testing
-
-**Other:** Apache Kafka, Gradle, Cilium, Envoy
+**Reliability & Observability:** SLOs, on-call and incident management, DR testing, Prometheus, Grafana, ELK, Datadog
 
 ---
 
@@ -36,21 +32,24 @@ Staff Software Engineer specializing in AI-powered security tooling and Internal
 
 *November 2025 – Present*
 
-* Leading the design and development of an AI-powered penetration testing service for Snyk's platform.
-* Architected a two-component system (API server + async worker) for orchestrating autonomous security assessments of web applications.
-* Built a hardened sandbox execution environment using bubblewrap, seccomp, and network egress policies to safely run AI agents.
+* One of the first two engineers in Snyk's AI Pentest department, helping scale it up.
+* Leading the design and development of the AI-powered penetration testing service: an API server and async worker orchestrating autonomous security assessments of web applications.
+* Building autonomous offensive-security agents on production LLM APIs, with guardrails, evals and MCP-based tool integrations.
+* Built a hardened sandbox for running AI agents safely, using bubblewrap, seccomp and network egress policies.
 * Implemented async job processing via Redis Streams with idempotent ingestion and concurrency-safe writes.
 * Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes, Envoy
 
 ---
 
-<img src="images/cecg.jpg" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer**
+<img src="images/cecg.jpg" height="30" style="vertical-align: middle;"> • CECG • **Lead Software Engineer** — Technical Lead, Product Owner & People Manager
 
 *November 2021 – October 2025*
 
-* Led the development of Internal Developer Platforms for different clients.
-* Strong focus on security; collaborated with the security team to design platform features.
-* Built an out-of-the-box, fully containerized Developer Platform deployable in days, saving years of manual effort.
+* Technical lead, product owner and people manager for ~15 engineers, half of them through team leads, building a Kubernetes-based Internal Developer Platform on AWS for a major UK retail bank.
+* Designed around a single tenant's needs, the platform's success and purpose-built tooling led ~50 tenant teams (250+ engineers) across the bank to onboard.
+* Partnered with the bank's security department to define new security standards for cloud-native applications and built them into the platform: default-deny networking, admission policies rejecting non-compliant workloads, image scanning at build, deploy and run time, and log forwarding to the bank's SIEM.
+* Owned the platform roadmap and build-vs-buy decisions, integrating the bank's existing identity, secrets, vulnerability management and SIEM tooling rather than rebuilding it.
+* Built an out-of-the-box, fully containerised Developer Platform deployable in days, saving years of manual effort.
 * Redesigned and helped rebuild the CMS solution for a major media company while improving department workflows.
 
 ---
@@ -59,25 +58,8 @@ Staff Software Engineer specializing in AI-powered security tooling and Internal
 
 *February 2018 – January 2022 — freelance, alongside full-time roles*
 
-Freelance software engineer through Toptal, taken on in parallel with my full-time positions. Worked across multiple client projects:
-
-**Client: Messaging and voicemail management mobile app**
-
-* Designed and implemented UI based on mockups.
-* Integrated features such as a messaging service and setup bot.
-* Tech stack: Flutter, Dialogflow, Firebase Cloud Messaging, Google Charts
-
-**Client: Aviation maintenance application**
-
-* Led mobile development and managed a team of 4 engineers.
-* Delivered full application based on design specs.
-* Tech stack: Node.js, Flutter, GCP, Serverless
-
-**Client: Reinsurance company**
-
-* Backend engineer across legacy and new systems.
-* Co-designed a modern service-oriented architecture.
-* Tech stack: Nest.js, Serverless, AWS, Java, Spring Boot, PostgreSQL, TypeORM
+* **Aviation maintenance app:** led mobile development and managed a team of 4 engineers, delivering the full application from design specs (Node.js, Flutter, GCP, Serverless).
+* **Reinsurance company:** co-designed a modern service-oriented architecture across legacy and new systems (Nest.js, Java, Spring Boot, AWS, PostgreSQL).
 
 ---
 
@@ -85,9 +67,7 @@ Freelance software engineer through Toptal, taken on in parallel with my full-ti
 
 *January 2021 – October 2021*
 
-* Fourth engineer at the company; helped scale to 40+ people.
-* Focused on reliability and resilience of the platform.
-* Built comprehensive test coverage (functional, integration, load).
+* Fourth engineer at the company; helped scale to 40+ people, focusing on platform reliability and resilience with functional, integration and load test coverage.
 
 ---
 
@@ -95,13 +75,9 @@ Freelance software engineer through Toptal, taken on in parallel with my full-ti
 
 *January 2016 – December 2020*
 
-* Built scalable and highly available REST APIs.
-* Migrated legacy databases using custom tools (Pentaho).
-* Created robust test suites across multiple test levels.
-* Maintained CI/CD pipelines on Kubernetes for microservices.
-* Tuned database and API performance; implemented zero-downtime optimizations.
-* Built observability dashboards using Kibana and Grafana.
 * Led and improved an internal Kubernetes-based PaaS.
+* Built scalable, highly available REST APIs and maintained CI/CD pipelines on Kubernetes for microservices.
+* Migrated legacy databases, delivered zero-downtime database and API performance optimisations, and built observability dashboards in Kibana and Grafana.
 
 ---
 
@@ -109,12 +85,7 @@ Freelance software engineer through Toptal, taken on in parallel with my full-ti
 
 *February 2012 – December 2015*
 
-* Developed and maintained all RadarBox24 applications using multiple APIs.
-* Contributed to the development of the radarbox24.com website.
-* Built RESTful services with Redis to optimize data access.
-* Implemented a high-throughput Java data processing server.
-* Developed Android apps for flight tracking.
-* Created a Maven-based data processor feeding data to Redis for downstream apps.
+* Developed and maintained all RadarBox24 applications (web and Android flight tracking), a high-throughput Java data processing server and Redis-backed RESTful services.
 
 ---
 
@@ -122,9 +93,7 @@ Freelance software engineer through Toptal, taken on in parallel with my full-ti
 
 *May 2011 – August 2011*
 
-* Implemented PDF report generation.
-* Contributed to the development of the code generator tool.
-* Refactored and maintained old applications.
+* Implemented PDF report generation, contributed to the code generator tool, and maintained legacy applications.
 
 ---
 
@@ -140,20 +109,11 @@ Freelance software engineer through Toptal, taken on in parallel with my full-ti
 
 ## 📂 Projects
 
-**Market Analyser** – Self-hosted quantitative trading research platform
-
-* End-to-end Go system for stock market research, backtesting, and paper trading via Interactive Brokers.
-* Self-hosted on personal infrastructure: PostgreSQL, Grafana dashboards, IB Gateway containers, Jenkins CI/CD.
-* Deployed with Docker Compose on NFS-backed storage; automated pipeline (lint, test, deploy, regression replay).
-* Walk-forward validation, Monte Carlo confidence intervals, and an 8-gate promotion framework before any strategy goes live.
-* Tech stack: Go, PostgreSQL, Docker, Jenkins, Grafana, NFS
-
----
+**Market Analyser** – Self-hosted quantitative trading research platform: an end-to-end Go system for backtesting and paper trading via Interactive Brokers, with walk-forward validation, Monte Carlo confidence intervals and an 8-gate promotion framework, running on PostgreSQL, Grafana and Jenkins CI/CD.
 
 <img src="images/kalschatzi.jpg" height="30" style="vertical-align: middle;"> • **Kalschatzi's Learning Platform** – [GitHub](https://github.com/Kalschatzi) | [Site](https://learn.kalschatzi.com)
 
-* Platform and content for a mentorship project supporting junior engineers.
-* Currently mentoring 4 students.
+* Platform and content for a mentorship project supporting junior engineers; currently mentoring 4 students.
 
 ---
 
@@ -161,6 +121,3 @@ Freelance software engineer through Toptal, taken on in parallel with my full-ti
 
 * **Universidade Nova de Lisboa - Master's in Computer Science** — *2011–2016*
 * **Wrocław University of Science and Technology - Bachelor in Computer Science (ERASMUS program)** - *2013-2014*
-
-
----
