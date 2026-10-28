@@ -6,38 +6,48 @@ href="https://github.com/tmcalves">GitHub</a> • <a
 href="https://learn.kalschatzi.com">Website</a></p>
 <hr />
 <h2 id="summary">🧑‍💻 Summary</h2>
-<p>Staff Software Engineer specializing in AI-powered security tooling
-and Internal Developer Platforms. I lead the design of secure,
-large-scale systems — from autonomous AI security agents and hardened
-sandboxes to end-to-end developer platforms — across startups and
-enterprises like Snyk and Sky plc. Active mentor and teacher.</p>
+<p>Staff Software Engineer with 15 years in software, specialising in AI
+agent platforms, cloud-native platform architecture and security. At
+Snyk I was one of the first two engineers in the AI Pentest department
+and lead the design of its AI-powered penetration testing service:
+autonomous offensive-security agents with guardrails, evals and hardened
+sandboxes. Before that, at CECG, I was technical lead, product owner and
+people manager for a ~15-engineer team building a major UK retail bank’s
+Internal Developer Platform. It grew from one tenant to ~50 tenant teams
+(250+ engineers), with security standards defined alongside the bank’s
+security department. Active mentor and teacher.</p>
 <hr />
-<h2 id="key-technical-skills">🛠️ Key Technical Skills</h2>
-<p><strong>Languages:</strong> Java, Groovy, Golang, Flutter, Rust,
-Python</p>
-<p><strong>DevOps:</strong> Docker, Kubernetes, k3s, Nomad, GitHub
-Actions, Jenkins, Terraform, ArgoCD</p>
-<p><strong>Cloud:</strong> AWS, GCP</p>
-<p><strong>Networking &amp; Self-Hosting:</strong> Tailscale, Cloudflare
-Tunnels, NFS</p>
-<p><strong>Databases:</strong> PostgreSQL, Cassandra, Redis</p>
-<p><strong>Observability:</strong> ELK, Prometheus, Grafana, Datadog</p>
-<p><strong>AI &amp; Security:</strong> LLM agents &amp; orchestration,
-autonomous agent sandboxing (bubblewrap, seccomp, egress policies),
-AppSec, penetration testing</p>
-<p><strong>Other:</strong> Apache Kafka, Gradle, Cilium, Envoy</p>
+<h2 id="key-skills">🛠️ Key Skills</h2>
+<p><strong>Architecture &amp; Leadership:</strong> Distributed systems,
+multi-tenant Internal Developer Platforms, event-driven and asynchronous
+architectures, build-vs-buy decisions, product ownership and roadmaps,
+managing through team leads, hiring, mentoring</p>
+<p><strong>AI &amp; Security:</strong> LLM agents and orchestration, MCP
+and tool integration, guardrails and evals, agent sandboxing
+(bubblewrap, seccomp, gVisor, Firecracker), AppSec, penetration testing
+tooling, security standards and governance</p>
+<p><strong>Languages:</strong> Go, Rust, Python, Java, Groovy</p>
+<p><strong>Cloud &amp; Platform:</strong> AWS, GCP, Kubernetes (EKS,
+GKE, multi-region), Terraform, ArgoCD, Crossplane, Config Connector,
+Cilium, Envoy, GitHub Actions, Jenkins</p>
+<p><strong>Data:</strong> PostgreSQL, Redis, Cassandra, Apache Kafka</p>
+<p><strong>Reliability &amp; Observability:</strong> SLOs, on-call and
+incident management, DR testing, Prometheus, Grafana, ELK, Datadog</p>
 <hr />
 <h2 id="experience">💼 Experience</h2>
 <p><img src="images/snyk.png" height="30" style="vertical-align: middle;">
 • Snyk • <strong>Staff Software Engineer</strong></p>
 <p><em>November 2025 – Present</em></p>
 <ul>
-<li>Leading the design and development of an AI-powered penetration
-testing service for Snyk’s platform.</li>
-<li>Architected a two-component system (API server + async worker) for
-orchestrating autonomous security assessments of web applications.</li>
-<li>Built a hardened sandbox execution environment using bubblewrap,
-seccomp, and network egress policies to safely run AI agents.</li>
+<li>One of the first two engineers in Snyk’s AI Pentest department,
+helping scale it up.</li>
+<li>Leading the design and development of the AI-powered penetration
+testing service: an API server and async worker orchestrating autonomous
+security assessments of web applications.</li>
+<li>Building autonomous offensive-security agents on production LLM
+APIs, with guardrails, evals and MCP-based tool integrations.</li>
+<li>Built a hardened sandbox for running AI agents safely, using
+bubblewrap, seccomp and network egress policies.</li>
 <li>Implemented async job processing via Redis Streams with idempotent
 ingestion and concurrency-safe writes.</li>
 <li>Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes,
@@ -45,14 +55,25 @@ Envoy</li>
 </ul>
 <hr />
 <p><img src="images/cecg.jpg" height="30" style="vertical-align: middle;">
-• CECG • <strong>Lead Software Engineer</strong></p>
+• CECG • <strong>Lead Software Engineer</strong> — Technical Lead,
+Product Owner &amp; People Manager</p>
 <p><em>November 2021 – October 2025</em></p>
 <ul>
-<li>Led the development of Internal Developer Platforms for different
-clients.</li>
-<li>Strong focus on security; collaborated with the security team to
-design platform features.</li>
-<li>Built an out-of-the-box, fully containerized Developer Platform
+<li>Technical lead, product owner and people manager for ~15 engineers,
+half of them through team leads, building a Kubernetes-based Internal
+Developer Platform on AWS for a major UK retail bank.</li>
+<li>Designed around a single tenant’s needs, the platform’s success and
+purpose-built tooling led ~50 tenant teams (250+ engineers) across the
+bank to onboard.</li>
+<li>Partnered with the bank’s security department to define new security
+standards for cloud-native applications and built them into the
+platform: default-deny networking, admission policies rejecting
+non-compliant workloads, image scanning at build, deploy and run time,
+and log forwarding to the bank’s SIEM.</li>
+<li>Owned the platform roadmap and build-vs-buy decisions, integrating
+the bank’s existing identity, secrets, vulnerability management and SIEM
+tooling rather than rebuilding it.</li>
+<li>Built an out-of-the-box, fully containerised Developer Platform
 deployable in days, saving years of manual effort.</li>
 <li>Redesigned and helped rebuild the CMS solution for a major media
 company while improving department workflows.</li>
@@ -62,75 +83,51 @@ company while improving department workflows.</li>
 • Toptal • <strong>Lead Software Engineer</strong></p>
 <p><em>February 2018 – January 2022 — freelance, alongside full-time
 roles</em></p>
-<p>Freelance software engineer through Toptal, taken on in parallel with
-my full-time positions. Worked across multiple client projects:</p>
-<p><strong>Client: Messaging and voicemail management mobile
-app</strong></p>
 <ul>
-<li>Designed and implemented UI based on mockups.</li>
-<li>Integrated features such as a messaging service and setup bot.</li>
-<li>Tech stack: Flutter, Dialogflow, Firebase Cloud Messaging, Google
-Charts</li>
-</ul>
-<p><strong>Client: Aviation maintenance application</strong></p>
-<ul>
-<li>Led mobile development and managed a team of 4 engineers.</li>
-<li>Delivered full application based on design specs.</li>
-<li>Tech stack: Node.js, Flutter, GCP, Serverless</li>
-</ul>
-<p><strong>Client: Reinsurance company</strong></p>
-<ul>
-<li>Backend engineer across legacy and new systems.</li>
-<li>Co-designed a modern service-oriented architecture.</li>
-<li>Tech stack: Nest.js, Serverless, AWS, Java, Spring Boot, PostgreSQL,
-TypeORM</li>
+<li><strong>Aviation maintenance app:</strong> led mobile development
+and managed a team of 4 engineers, delivering the full application from
+design specs (Node.js, Flutter, GCP, Serverless).</li>
+<li><strong>Reinsurance company:</strong> co-designed a modern
+service-oriented architecture across legacy and new systems (Nest.js,
+Java, Spring Boot, AWS, PostgreSQL).</li>
 </ul>
 <hr />
 <p><img src="images/reachdesk.png" height="30" style="vertical-align: middle;">
 • Reachdesk • <strong>Senior Software Engineer</strong></p>
 <p><em>January 2021 – October 2021</em></p>
 <ul>
-<li>Fourth engineer at the company; helped scale to 40+ people.</li>
-<li>Focused on reliability and resilience of the platform.</li>
-<li>Built comprehensive test coverage (functional, integration,
-load).</li>
+<li>Fourth engineer at the company; helped scale to 40+ people, focusing
+on platform reliability and resilience with functional, integration and
+load test coverage.</li>
 </ul>
 <hr />
 <p><img src="images/sky.jpg" height="30" style="vertical-align: middle;">
 • Sky PLC • <strong>Senior Software Engineer</strong></p>
 <p><em>January 2016 – December 2020</em></p>
 <ul>
-<li>Built scalable and highly available REST APIs.</li>
-<li>Migrated legacy databases using custom tools (Pentaho).</li>
-<li>Created robust test suites across multiple test levels.</li>
-<li>Maintained CI/CD pipelines on Kubernetes for microservices.</li>
-<li>Tuned database and API performance; implemented zero-downtime
-optimizations.</li>
-<li>Built observability dashboards using Kibana and Grafana.</li>
 <li>Led and improved an internal Kubernetes-based PaaS.</li>
+<li>Built scalable, highly available REST APIs and maintained CI/CD
+pipelines on Kubernetes for microservices.</li>
+<li>Migrated legacy databases, delivered zero-downtime database and API
+performance optimisations, and built observability dashboards in Kibana
+and Grafana.</li>
 </ul>
 <hr />
 <p><img src="images/airnav.jpg" height="30" style="vertical-align: middle;">
 • Airnav Systems LLC • <strong>Senior Software Engineer</strong></p>
 <p><em>February 2012 – December 2015</em></p>
 <ul>
-<li>Developed and maintained all RadarBox24 applications using multiple
-APIs.</li>
-<li>Contributed to the development of the radarbox24.com website.</li>
-<li>Built RESTful services with Redis to optimize data access.</li>
-<li>Implemented a high-throughput Java data processing server.</li>
-<li>Developed Android apps for flight tracking.</li>
-<li>Created a Maven-based data processor feeding data to Redis for
-downstream apps.</li>
+<li>Developed and maintained all RadarBox24 applications (web and
+Android flight tracking), a high-throughput Java data processing server
+and Redis-backed RESTful services.</li>
 </ul>
 <hr />
 <p><img src="images/quidgest.jpg" height="30" style="vertical-align: middle;">
 • Quidgest • <strong>Software Developer</strong></p>
 <p><em>May 2011 – August 2011</em></p>
 <ul>
-<li>Implemented PDF report generation.</li>
-<li>Contributed to the development of the code generator tool.</li>
-<li>Refactored and maintained old applications.</li>
+<li>Implemented PDF report generation, contributed to the code generator
+tool, and maintained legacy applications.</li>
 </ul>
 <hr />
 <h2 id="online-writing-public-contributions">🧾 Online Writing / Public
@@ -152,27 +149,17 @@ OOP</a></li>
 <hr />
 <h2 id="projects">📂 Projects</h2>
 <p><strong>Market Analyser</strong> – Self-hosted quantitative trading
-research platform</p>
-<ul>
-<li>End-to-end Go system for stock market research, backtesting, and
-paper trading via Interactive Brokers.</li>
-<li>Self-hosted on personal infrastructure: PostgreSQL, Grafana
-dashboards, IB Gateway containers, Jenkins CI/CD.</li>
-<li>Deployed with Docker Compose on NFS-backed storage; automated
-pipeline (lint, test, deploy, regression replay).</li>
-<li>Walk-forward validation, Monte Carlo confidence intervals, and an
-8-gate promotion framework before any strategy goes live.</li>
-<li>Tech stack: Go, PostgreSQL, Docker, Jenkins, Grafana, NFS</li>
-</ul>
-<hr />
+research platform: an end-to-end Go system for backtesting and paper
+trading via Interactive Brokers, with walk-forward validation, Monte
+Carlo confidence intervals and an 8-gate promotion framework, running on
+PostgreSQL, Grafana and Jenkins CI/CD.</p>
 <p><img src="images/kalschatzi.jpg" height="30" style="vertical-align: middle;">
 • <strong>Kalschatzi’s Learning Platform</strong> – <a
 href="https://github.com/Kalschatzi">GitHub</a> | <a
 href="https://learn.kalschatzi.com">Site</a></p>
 <ul>
 <li>Platform and content for a mentorship project supporting junior
-engineers.</li>
-<li>Currently mentoring 4 students.</li>
+engineers; currently mentoring 4 students.</li>
 </ul>
 <hr />
 <h2 id="education">🎓 Education</h2>
@@ -182,4 +169,3 @@ Science</strong> — <em>2011–2016</em></li>
 <li><strong>Wrocław University of Science and Technology - Bachelor in
 Computer Science (ERASMUS program)</strong> - <em>2013-2014</em></li>
 </ul>
-<hr />
