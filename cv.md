@@ -35,7 +35,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 * One of the first two engineers in Snyk's AI Pentest department, helping scale it up.
 * Drove adoption of Claude Code and Cursor: piloted it with a team of 5 in Snyk's Evo department, extended it to the AI Pentest department, and it was later adopted across Evo (~200 people). Backed it with automated validation of code quality, documentation and conformance to ADRs and task requirements.
 * Principal architect for the AI-powered penetration testing service: an API server and async worker orchestrating autonomous security assessments of web applications.
-* Took the service from design to general availability with paying customers in ~6 months end to end, against an initial estimate of over a year, using agentic development.
+* Took the service from design to general availability with paying customers in ~6 months end to end, using agentic development.
 * Building autonomous offensive-security agents on production LLM APIs, with guardrails, evals and MCP-based tool integrations.
 * Led threat modelling for the service and designed its agent controls: prompt-injection handling for untrusted content from target applications, tool-misuse limits, and an audit trail of agent decisions and tool calls.
 * Built a hardened sandbox for running AI agents safely, using gVisor, bubblewrap, seccomp and network egress policies.
