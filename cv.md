@@ -52,6 +52,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 * Partnered with the bank's security department to define new security standards for cloud-native applications and built them into the platform: default-deny networking, admission policies rejecting non-compliant workloads, image scanning at build, deploy and run time, and log forwarding to the bank's SIEM.
 * Owned the platform roadmap and build-vs-buy decisions, integrating the bank's existing identity, secrets, vulnerability management and SIEM tooling rather than rebuilding it.
 * Built an out-of-the-box, containerised Developer Platform deployable in days.
+* As principal engineer on Sky's CMS redesign, led the move from a monolith to small, isolated, independently deployable microservices.
 
 ---
 
