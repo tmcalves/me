@@ -25,10 +25,10 @@ multi-tenant Internal Developer Platforms, event-driven and asynchronous
 architectures, build-vs-buy decisions, product ownership and roadmaps,
 managing through team leads, hiring, mentoring</p>
 <p><strong>AI &amp; Security:</strong> LLM agents and orchestration, MCP
-and tool integration, guardrails and evals, agent sandboxing (gVisor in
-production, bubblewrap, seccomp; Firecracker evaluated),
-prompt-injection handling, threat modelling, AppSec, penetration testing
-tooling, security standards and governance</p>
+and tool integration, guardrails and evals, agent sandboxing (gVisor
+under rootless Podman, seccomp, two-layer egress control; Firecracker
+evaluated), prompt-injection handling, threat modelling, AppSec,
+penetration testing tooling, security standards and governance</p>
 <p><strong>Languages:</strong> Go, Rust, Python, Java, Groovy</p>
 <p><strong>Cloud &amp; Platform:</strong> AWS, GCP, Kubernetes (EKS,
 GKE, multi-region), Terraform, ArgoCD, Crossplane, Config Connector,
@@ -44,11 +44,6 @@ incident management, DR testing, Prometheus, Grafana, ELK, Datadog</p>
 <ul>
 <li>One of the first two engineers in Snyk’s AI Pentest department,
 helping scale it up.</li>
-<li>Drove adoption of Claude Code and Cursor: piloted it with a team of
-5 in Snyk’s Evo department, extended it to the AI Pentest department,
-and it was later adopted across Evo (~200 people). Backed it with
-automated validation of code quality, documentation and conformance to
-ADRs and task requirements.</li>
 <li>Principal architect for the AI-powered penetration testing service:
 an API server and async worker orchestrating autonomous security
 assessments of web applications.</li>
@@ -60,8 +55,10 @@ APIs, with guardrails, evals and MCP-based tool integrations.</li>
 controls: prompt-injection handling for untrusted content from target
 applications, tool-misuse limits, and an audit trail of agent decisions
 and tool calls.</li>
-<li>Built a hardened sandbox for running AI agents safely, using gVisor,
-bubblewrap, seccomp and network egress policies.</li>
+<li>Built a hardened sandbox for running AI agents safely: gVisor pods
+under rootless Podman with no network of their own, seccomp, and
+two-layer egress control that rejects private and metadata
+addresses.</li>
 <li>Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes,
 Envoy</li>
 </ul>
