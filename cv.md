@@ -14,7 +14,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 
 **Architecture & Leadership:** Distributed systems, multi-tenant Internal Developer Platforms, event-driven and asynchronous architectures, build-vs-buy decisions, product ownership and roadmaps, managing through team leads, hiring, mentoring
 
-**AI & Security:** LLM agents and orchestration, MCP and tool integration, guardrails and evals, agent sandboxing (gVisor in production, bubblewrap, seccomp; Firecracker evaluated), prompt-injection handling, threat modelling, AppSec, penetration testing tooling, security standards and governance
+**AI & Security:** LLM agents and orchestration, MCP and tool integration, guardrails and evals, agent sandboxing (gVisor under rootless Podman, seccomp, two-layer egress control; Firecracker evaluated), prompt-injection handling, threat modelling, AppSec, penetration testing tooling, security standards and governance
 
 **Languages:** Go, Rust, Python, Java, Groovy
 
@@ -38,7 +38,7 @@ Staff Software Engineer with 15 years in software, specialising in AI agent plat
 * Took the service from design to general availability with paying customers in ~6 months end to end, using agentic development.
 * Building autonomous offensive-security agents on production LLM APIs, with guardrails, evals and MCP-based tool integrations.
 * Led threat modelling for the service and designed its agent controls: prompt-injection handling for untrusted content from target applications, tool-misuse limits, and an audit trail of agent decisions and tool calls.
-* Built a hardened sandbox for running AI agents safely, using gVisor, bubblewrap, seccomp and network egress policies.
+* Built a hardened sandbox for running AI agents safely: gVisor pods under rootless Podman with no network of their own, seccomp, and two-layer egress control that rejects private and metadata addresses.
 * Tech stack: Go, Rust, Python, PostgreSQL, Redis, Docker, Kubernetes, Envoy
 
 ---
