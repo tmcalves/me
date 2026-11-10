@@ -15,19 +15,19 @@ jobs:
 
     steps:
       - name: Checkout source
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Pandoc
-        run: sudo apt-get install -y pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Convert Markdown to HTML
         run: |
           mkdir output
-          pandoc cv.md -o output/index.html
-          cp -r images output/
+          pandoc cv.md -s --metadata pagetitle="Tiago Alves" --css cv.css -o output/index.html
+          cp -r images cv.css output/
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output

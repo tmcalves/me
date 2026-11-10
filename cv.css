@@ -53,3 +53,9 @@ img {
 p {
   margin: 4px 0;
 }
+
+/* Web page only (GitHub Pages); the PDF build uses print media and ignores this. */
+@media screen {
+  html { background: #fff; }
+  body { max-width: 52em; margin: 0 auto; padding: 2em 1.25em 4em; }
+}
